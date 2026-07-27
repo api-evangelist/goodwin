@@ -1,7 +1,17 @@
 aid: goodwin
 name: Goodwin
-description: Goodwin is a company surfaced as a portfolio company of canaan-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Goodwin (Goodwin Company, teamgoodwin.com) is a B2B charter aviation technology
+  company founded in 2023 and headquartered in Columbus, Ohio, backed by Canaan
+  Partners at Series A. Its API-first platform serves the private-jet charter
+  broker-operator ecosystem with aircraft sourcing across an 11,000+ aircraft
+  database, automated proposal generation, modern payment processing beyond wire
+  transfers, real-time market-adaptive pricing, and post-sale trip management. The
+  white-labeled software integrates with operators' existing scheduling systems
+  and is offered to emerging, growing, and enterprise brokers as well as charter
+  operators. Goodwin operates purely B2B and does not currently publish a public
+  developer API, OpenAPI specification, or developer portal; this profile captures
+  its identity and public web properties.
 url: https://raw.githubusercontent.com/api-evangelist/goodwin/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +19,55 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://goodwin-public-images-prod.s3.us-east-2.amazonaws.com/company-profile-images/cmpdf25f07d05e_17436103217340.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Aviation
+- Charter Aviation
+- Private Aviation
+- Travel
+- Payments
+- SaaS
+- B2B
 apis: []
+common:
+- type: DomainSecurity
+  url: security/goodwin-domain-security.yml
+- type: Website
+  url: https://www.teamgoodwin.com
+- type: SignUp
+  url: https://app.hellogoodwin.com/brokers
+- type: Login
+  url: https://app.hellogoodwin.com/brokers
+- type: Blog
+  url: https://www.teamgoodwin.com/insights
+- type: News
+  url: https://www.teamgoodwin.com/news
+- type: PrivacyPolicy
+  url: https://www.teamgoodwin.com/privacy-policy
+- type: TermsOfService
+  url: https://www.teamgoodwin.com/terms-of-service
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
