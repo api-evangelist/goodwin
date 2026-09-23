@@ -1,0 +1,27 @@
+# Front Door AI Index — goodwin — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: goodwin
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.teamgoodwin.com
+  final_host: www.teamgoodwin.com
+  ownership: own
+  owner: goodwin
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 3
+  host_score: 3
+  density: 4.11
+  words: 730
+  tiers:
+    agentic: 1
+    core: 2
+    model: 0
+  ambiguous: 0
+  top_terms:
+    AI: 1
+    copilot: 1
+    machine learning: 1
